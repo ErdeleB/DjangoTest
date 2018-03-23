@@ -1,0 +1,21 @@
+{% extends 'erdele/base.html' %}
+  
+{% block content %}
+     <form class="form-sign signin w3-display-middle">
+  
+          <h1 class="h3 mb-3 font-weight-normal">Register </h1>
+          <label for="inputEmail" class="sr-only">Email address</label>
+          <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
+         
+          <label for="inputPassword" class="sr-only">Password</label>
+          <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+          <label for="inputPassword" class="sr-only">Re-Type Password</label>
+          <input type="password" id="inputPassword" class="form-control" placeholder="Re-Type Password" required>
+          <button class="btn btn-lg btn-primary btn-block" type="submit">Register</button>
+          <button class="btn btn-lg btn-primary btn-block" type="submit">Cancel</button>
+         
+    </form>
+
+{% endblock %}
+
+

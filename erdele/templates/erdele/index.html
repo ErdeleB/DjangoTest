@@ -1,0 +1,33 @@
+{% extends 'erdele/base.html' %}
+  
+{% block content %}
+
+  
+
+    <div class="bgimg w3-display-container w3-animate-opacity w3-text-white">
+      <div class="w3-display-topleft w3-padding-large w3-xlarge">
+              Zaya & Erdele
+
+      </div>
+      <div  class="w3-display-topright w3-padding-large w3-xlarge">
+        <nav class="navbar navbar-expand-sm ">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item"><a class="nav-link"  href="{% url 'signin' %}">Sign in</a></li>
+            <li class="nav-item"><a class="nav-link"  href="{% url 'signup' %}">Sign up</a></li>
+          <ul>
+        </nav>
+      </div>
+
+      <div class="w3-display-middle">
+          <h1 class="w3-jumbo w3-animate-top">Chamdaa hairtai shuu</h1>
+          <hr class="w3-border-grey" style="margin:auto;width:40%">
+          <p class="w3-large w3-center">Hoyulaa urgelj hamt</p>
+      </div>
+      <div class="w3-display-bottomleft w3-padding-large">
+              I love you <a href="" target="_blank"></a>
+      </div>
+  </div>
+
+{% endblock %}
+
+
